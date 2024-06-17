@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-clr {
+    background-color: #24353F;
+}
+
+.text-clr {
+    color: rgb(23, 162, 184);
+}
+
+.box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.form-control {
+    color: #B5B5B5;
+    background-color: #24353f;
+}
+
+.form-control::placeholder {
+    color: #B5B5B5;
+}
+
+span:hover {
+    text-decoration: underline;
+}

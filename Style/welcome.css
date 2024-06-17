@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-clr {
+    background-color: #24353F;
+}
+
+.text-clr {
+    color: rgb(23, 162, 184);
+}
+
+.end-25 {
+    right: 25% !important
+}
+
+.nv {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.bg-body-tertiary {
+    background-color: rgba(36, 53, 63, 1) !important;
+}
+
+.box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    font-family: sans-serif;
+}
