@@ -12,6 +12,10 @@
     color: rgb(23, 162, 184);
 }
 
+.text-succ {
+    color: #28A745 !important;;
+}
+
 .box {
     box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
 }
@@ -21,12 +25,18 @@ h1 {
 }
 
 .form-control {
-    color: #B5B5B5;
+    color: #ffffff;
     background-color: #24353f;
 }
 
 .form-control::placeholder {
     color: #B5B5B5;
+}
+
+.form-control:focus {
+    color: #ffffff;
+    --bs-body-bg: #24353f
+    background-color: var(--bs-body-bg);
 }
 
 span:hover {
